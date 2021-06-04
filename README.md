@@ -6,7 +6,7 @@ Simple logging python3 library
 
 from log import Log
 
-<code>
+```
 #set file name
 log = Log("app") #app.log (library automatically adds ".log" to the file name)
 log.info("info message")
@@ -23,4 +23,4 @@ debug - debug message - 04/06/2021 14:26:25
 error - error message - 04/06/2021 14:26:25
 custom tag - message with custom tag - 04/06/2021 14:26:25
 """
-</code>
+```
