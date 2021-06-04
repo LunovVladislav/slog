@@ -4,9 +4,9 @@ Simple logging python3 library
 
 # Documentation
 
+```
 from log import Log
 
-```
 #set file name
 log = Log("app") #app.log (library automatically adds ".log" to the file name)
 log.info("info message")
