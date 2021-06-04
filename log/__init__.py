@@ -22,5 +22,5 @@ class Log:
 
 	def log(self, mode, message):
 		file = open(self.fileName, "a")
-		file.write(mode+" - "+message+" - "+self.time()+"\n")
+		file.write(mode+"-"+message+"-"+self.time()+"\n")
 		file.close()
