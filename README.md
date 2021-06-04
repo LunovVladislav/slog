@@ -4,6 +4,8 @@ Simple logging python3 library
 
 # Documentation
 
+Better don't use "-" symbol in your message or custom tag
+
 ```
 from log import Log
 
