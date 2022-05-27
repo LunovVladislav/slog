@@ -1,16 +1,14 @@
-# python-log
-
+# slog
 Simple logging python3 library
 
-# Documentation
+"-" symbol is functional and therefore can not be used in tags or messages
 
-Better don't use "-" symbol in your message or custom tag
-
-```
+```python
 from log import Log
 
 #set file name
-log = Log("app") #app.log (library automatically adds ".log" to the file name)
+log = Log("app") # the name is set to be app.log
+
 log.info("info message")
 log.warning("warning message")
 log.debug("debug message")
