@@ -1,5 +1,5 @@
 # slog
-Simple logging python3 library
+Simple logging python library
 
 "-" symbol is functional and therefore can not be used in tags or messages
 
